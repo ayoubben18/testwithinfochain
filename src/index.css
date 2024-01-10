@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.insert-box {
+  @apply w-32 border-black p-2 rounded-md border-[1px];
+}
